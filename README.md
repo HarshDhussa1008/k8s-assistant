@@ -22,7 +22,7 @@ A natural language interface for Kubernetes troubleshooting powered by AI
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/k8s-assistant.git
+   git clone https://github.com/HarshDhussa1008/k8s-assistant.git
    ```
 
 2. Navigate to the project directory:
