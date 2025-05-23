@@ -1,5 +1,6 @@
 from openai import OpenAI
 from k8s_assistant.llms.LLM import LLM
+import os
 
 class GPT(LLM):
     """GPT class for interacting with the OpenAI GPT model."""

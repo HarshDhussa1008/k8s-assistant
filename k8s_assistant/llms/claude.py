@@ -1,5 +1,6 @@
 import anthropic
 from k8s_assistant.llms.LLM import LLM
+import os
 
 class Claude(LLM):
     """Claude class for interacting with the Anthropic Claude model."""
