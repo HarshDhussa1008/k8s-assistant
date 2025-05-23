@@ -13,8 +13,8 @@ A natural language interface for Kubernetes troubleshooting powered by AI
 
 ## Prerequisites
 
-1. Python 3.10+
-2. kubectl installed and configured
+1. Python 3.12
+2. kubectl is installed and configured
 3. Anthropic API key (Claude)
 4. OpenAI API key (GPT)
 
@@ -22,22 +22,22 @@ A natural language interface for Kubernetes troubleshooting powered by AI
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/HarshDhussa1008/k8s-assistant.git
+   git clone https://github.com/HarshDhussa1008/k8s_assistant.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd k8s-assistant
+   cd k8s_assistant
    ```
 
 3. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   python3.12 -m pip install -r requirements.txt
    ```
 
 4. Install the package:
    ```bash
-   pip install -e .
+   python3.12 -m pip install -e .
    ```
 
 
